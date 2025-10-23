@@ -22,8 +22,11 @@ fn main() {
         }
 
     }
-    else {
+    else if is_experienced.trim() == "N"{
         println!("Incentive: N100,000");
+    }
+    else {
+        println!("Invalid Input. Type Y or N");
     }
 
     // let mut age = String::new();
